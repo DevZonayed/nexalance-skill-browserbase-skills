@@ -12,7 +12,6 @@ build/
 .env.*.local
 
 # IDE
-.vscode/
 .idea/
 *.swp
 *.swo
@@ -50,3 +49,7 @@ tmp/.cache/.chrome-pid
 
 # Per-skill local Claude Code settings (contains user-specific permission approvals)
 skills/*/.claude/settings.local.json
+branch_structure.json
+temp_auto_push.bat
+temp_interactive_push.bat
+.gitignore
